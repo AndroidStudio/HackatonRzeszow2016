@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+        <item name="android:scrollbarSize">5dp</item>
+    </style>
+
+    <style name="popupStyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:overlapAnchor">false</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+</resources>

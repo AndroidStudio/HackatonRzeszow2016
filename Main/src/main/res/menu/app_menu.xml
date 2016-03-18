@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Szukaj ogłoszeń"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="never" />
+</menu>
